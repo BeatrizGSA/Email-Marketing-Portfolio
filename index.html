@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Beatriz Sánchez | Email Marketing Portfolio</title>
+  <title>Beatriz G. Sánchez A. | Email Marketing Portfolio</title>
 
 <style>
     * {
@@ -72,20 +72,22 @@
       color:#6527F5;
     }
 
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 24px;
-    }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
 
-    .card {
-      background-color: #ffffff;
-      border: 1px solid #e3e6ea;
-      border-radius: 14px;
-      padding: 26px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
-      transition:.25s ease;
-    }
+  .card {
+    width: min(100%, 340px);
+    background-color: #ffffff;
+    border: 1px solid #e3e6ea;
+    border-radius: 14px;
+    padding: 26px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    transition: .25s ease;
+  }
 
     .card:hover{
       transform:translateY(-4px);
@@ -151,26 +153,36 @@
 
     footer {
       margin-top: 56px;
-      padding: 38px 20px;
-      background:#6527F5;
-      color:#ffffff;
+      padding: 40px 20px;
+      background: #1D1D24;
+      color: #ffffff;
       text-align: center;
+      border-top: 4px solid transparent;
+      border-image: linear-gradient(
+          90deg,
+          #6527F5,
+          #CC27F5,
+          #F527B7
+        ) 1;
     }
-
+    
     footer strong{
       font-size:20px;
     }
-
-    footer a {
+    
+    footer p{
+      margin:10px 0;
+    }
+    
+    footer a{
       color:#ffffff;
       text-decoration:none;
       transition:.25s ease;
     }
-
+    
     footer a:hover{
       color:#F527B7;
     }
-
     @media (max-width: 600px) {
 
       header {
