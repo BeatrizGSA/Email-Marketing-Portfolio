@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Beatriz Sánchez | Email Marketing Portfolio</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f6f8;
+      color: #202124;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 64px 24px;
+      text-align: center;
+      border-bottom: 1px solid #e3e6ea;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 42px;
+    }
+
+    header p {
+      max-width: 760px;
+      margin: 0 auto;
+      color: #5f6368;
+      font-size: 18px;
+    }
+
+    main {
+      width: min(1100px, 92%);
+      margin: 48px auto;
+    }
+
+    .intro {
+      max-width: 820px;
+      margin: 0 auto 44px;
+      text-align: center;
+    }
+
+    .intro h2 {
+      margin-bottom: 12px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #e3e6ea;
+      border-radius: 14px;
+      padding: 26px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    }
+
+    .card .category {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 10px;
+      border-radius: 20px;
+      background-color: #eef1f5;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+
+    .card p {
+      min-height: 82px;
+      color: #5f6368;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 11px 18px;
+      border-radius: 8px;
+      background-color: #202124;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      opacity: 0.85;
+    }
+
+    .skills {
+      margin-top: 56px;
+      padding: 34px;
+      background-color: #ffffff;
+      border-radius: 14px;
+      text-align: center;
+      border: 1px solid #e3e6ea;
+    }
+
+    .skills p {
+      max-width: 800px;
+      margin: 0 auto;
+      color: #5f6368;
+    }
+
+    footer {
+      margin-top: 56px;
+      padding: 32px 20px;
+      background-color: #202124;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 44px 20px;
+      }
+
+      header h1 {
+        font-size: 32px;
+      }
+
+      .card p {
+        min-height: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Email Marketing Portfolio</h1>
+
+    <p>
+      A selection of responsive HTML email campaigns showcasing my
+      approach to CRM, lifecycle marketing, customer journeys,
+      copywriting, and marketing automation.
+    </p>
+  </header>
+
+  <main>
+
+    <section class="intro">
+      <h2>Portfolio Projects</h2>
+
+      <p>
+        Each project combines marketing strategy, audience-focused
+        communication, customer experience principles, and responsive
+        HTML email development.
+      </p>
+    </section>
+
+    <section class="projects">
+
+      <article class="card">
+        <span class="category">Lifecycle Marketing</span>
+        <h3>Welcome Email</h3>
+        <p>
+          Introduces new subscribers to the brand and encourages their
+          first meaningful interaction.
+        </p>
+        <a class="button" href="Welcome Email.html">
+          View Campaign
+        </a>
+      </article>
+
+      <article class="card">
+        <span class="category">Lead Nurturing</span>
+        <h3>Educational Lead Nurturing</h3>
+        <p>
+          Guides prospective international students through the
+          decision-making process using relevant educational content.
+        </p>
+        <a class="button" href="Educational Lead Nurturing.html">
+          View Campaign
+        </a>
+      </article>
+
+      <article class="card">
+        <span class="category">Promotional Campaign</span>
+        <h3>Scholarship Promotion</h3>
+        <p>
+          Promotes an international scholarship opportunity and
+          encourages qualified students to apply.
+        </p>
+        <a class="button" href="Scholarship Promotion.html">
+          View Campaign
+        </a>
+      </article>
+
+      <article class="card">
+        <span class="category">Marketing Automation</span>
+        <h3>Abandoned Cart Recovery</h3>
+        <p>
+          Re-engages customers who left products in their carts and
+          encourages them to complete their purchase.
+        </p>
+        <a class="button" href="Abandoned Cart Recovery.html">
+          View Campaign
+        </a>
+      </article>
+
+      <article class="card">
+        <span class="category">Customer Retention</span>
+        <h3>Thank You for Your Purchase</h3>
+        <p>
+          Strengthens the post-purchase relationship and supports
+          customer loyalty and brand experience.
+        </p>
+        <a class="button" href="Thank You for Your Purchase.html">
+          View Campaign
+        </a>
+      </article>
+
+    </section>
+
+    <section class="skills">
+      <h2>Skills Demonstrated</h2>
+
+      <p>
+        Email Marketing · CRM · Lifecycle Marketing · Lead Generation ·
+        Marketing Automation · Customer Journey Design · Copywriting ·
+        UX Writing · Responsive HTML Email Development
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      <strong>Beatriz Sánchez</strong><br>
+      Marketing Technology · CRM · Email Marketing · Marketing Automation
+    </p>
+
+    <p>
+      <a href="https://linkedin.com/in/beatriz-sanchez-martech/">
+        LinkedIn
+      </a>
+      ·
+      <a href="https://github.com/BeatrizGSA">
+        GitHub
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
