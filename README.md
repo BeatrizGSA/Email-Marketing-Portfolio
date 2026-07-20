@@ -2,7 +2,7 @@
 
 ## About Me
 
-Marketing Technology professional with 7+ years of experience in Digital Marketing, CRM, Lead Generation, and Email Marketing. This repository showcases responsive HTML email campaigns designed to demonstrate my approach to lifecycle marketing, customer journeys, marketing automation, and conversion-focused communication.
+Marketing Technology professional with 7+ years of experience in Digital Marketing, CRM, Lead Generation, and Email Marketing. This repository showcases marketing campaign concepts developed as responsive HTML emails to demonstrate my approach to CRM, lifecycle marketing, customer journeys, and marketing automation.
 
 Each project reflects my process of combining marketing strategy, copywriting, user experience, and HTML email development to create engaging customer communications.
 
